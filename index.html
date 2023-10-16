@@ -3,53 +3,131 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hitsujo | Portfolio</title>
     <link rel="stylesheet" href="/style.css" />
-    <!--ADD A FAVICON-->
-    <link rel="icon" type="image/x-icon" href="" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <title>Hitsujo | Portfolio</title>
   </head>
-
   <body>
-    <nav class="navbar">
-      <p>Hitsujo</p>
-      <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">SKILLS</a></li>
-        <li><a href="#">PROJECTS</a></li>
-      </ul>
-      <button id="btn">Contact</button>
-    </nav>
+    <section class="home">
+      <div class="navigation">
+        <img src="/images/scissors_black.png" alt="logo" />
+        <div class="nav-links">
+          <a href="#1">ABOUT</a>
+          <a href="#2">SKILLS</a>
+          <a href="#3">PROJECTS</a>
+          <a href="#4">CONTACT</a>
+        </div>
+        <div class="theme">
+          <i class="bx bxs-moon"></i>
+        </div>
+      </div>
 
-    <div class="hero-section">
-      <p class="hello">Hi, I am</p>
-      <h1>HITSUJO</h1>
-      <p class="name">or Joanne Andriamahandry</p>
+      <div class="hero">
+        <div class="carousel-w">
+          <div class="carousel">
+            <span>HITSUJO&nbsp;&nbsp;HISTUJO&nbsp;&nbsp;HISTUJO</span>
+          </div>
+          <div class="carousel carousel2">
+            <span>HITSUJO&nbsp;&nbsp;HISTUJO&nbsp;&nbsp;HISTUJO</span>
+          </div>
+        </div>
 
-      <hr />
+        <img src="/images/sheep_black_full.png" alt="avatar" />
 
-      <p class="description">
-        I am a computer science and designer <br />
-        student that just started being interested <br />
-        in web development.
+        <div class="description">
+          <p>
+            I am a computer science and design student currently interested in
+            web development. <br />
+            <span>
+              Je suis une étudiante en informatique et en design actuellement
+              intéressée par le développement web.
+            </span>
+          </p>
+        </div>
+
+        <button id="resume">Resume<i class="bx bx-arrow-to-bottom"></i></button>
+      </div>
+
+      <div class="media">
+        <a href="https://github.com/Hitsujo" target="_blank"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a href="https://www.instagram.com/hitsujo/" target="_blank"
+          ><i class="bx bxl-instagram-alt"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/joanne-andriamahandry-849526275"
+          target="_blank"
+          ><i class="bx bxl-linkedin-square"></i
+        ></a>
+        <a href="https://www.behance.net/hitsujo" target="_blank"
+          ><i class="bx bxl-behance"></i
+        ></a>
+      </div>
+    </section>
+
+    <section class="about" id="1">
+      <h2 class="title">About me</h2>
+      <p>
+        <span
+          >My first experience with programming concepts was back in 2012, when
+          I played my first video game. I started learning more about
+          programming in 2022. I am currently interested in web development and
+          in full-stack development.</span
+        ><br /><span>
+          About design, I already made few prototypes of mobile applications,
+          and I know some web design concepts.</span
+        ><br /><span>
+          Now I am studying HTML, CSS and JavaScript and I would like to learn
+          ReactJS very soon.</span
+        ><br /><span>
+          Beside programming, I read books, listen to music a lot, and cycle
+          sometimes. I like to be aware of environment problems and
+          solutions.</span
+        >
       </p>
+    </section>
 
-      <a href="https://www.instagram.com/hitsujo/" target="_blank"
-        ><i class="bx bxl-instagram-alt"></i
-      ></a>
-      <a
-        href="https://www.linkedin.com/in/joanne-andriamahandry-849526275"
-        target="_blank"
-        ><i class="bx bxl-linkedin-square"></i
-      ></a>
-      <a href="https://github.com/Hitsujo" target="_blank"
-        ><i class="bx bxl-github"></i
-      ></a>
-    </div>
+    <section class="skills" id="2">
+      <h2 class="title">Skills</h2>
+      <p>
+        Here are the skills, tools and languages I learned or I am still
+        learning. <br />
+        I can use wireframes for prototyping and I code the front-end part of a
+        website.
+      </p>
+      <div class="tools">
+        <i class="bx bxl-html5"></i>
+        <i class="bx bxl-css3"></i>
+        <i class="bx bxl-python"></i>
+        <i class="bx bxl-javascript"></i>
+        <i class="bx bxl-figma"></i>
+      </div>
+    </section>
+
+    <section class="projects" id="3">
+      <h2 class="title">Projects</h2>
+
+      <button id="coding">Coding</button>
+      <button id="design">Design</button>
+      <div class="choose1">
+        <div class="p1"></div>
+        <div class="p2"></div>
+        <div class="p3"></div>
+      </div>
+      <!--<div class="choose2">
+        <div class="p1"></div>
+        <div class="p2"></div>
+        <div class="p3"></div>
+      </div>-->
+    </section>
+
+    <section class="contact" id="4"></section>
+
+    <footer></footer>
 
     <script src="/index.js"></script>
   </body>
